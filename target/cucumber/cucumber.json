@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3955574536,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalHooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "login to the application and search room",
+        "description": "",
+        "id": "login-and-search-room-in-hotel-application;login-to-the-application-and-search-room;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 905470853,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalHooks.afterScenario1(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557092520,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is able Launch the hotel application using \"http://adactin.com/HotelApp/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://adactin.com/HotelApp/index.php",
+                  "offset": 49
+                }
+              ],
+              "location": "SetpDefinition.user_is_able_Launch_the_hotel_application_using(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1249851950,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the \"kmanubolu\" and \"India@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kmanubolu",
+                  "offset": 17
+                },
+                {
+                  "val": "India@123",
+                  "offset": 33
+                }
+              ],
+              "location": "SetpDefinition.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2684266791,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the Log in button",
+            "match": {
+              "location": "SetpDefinition.user_clicks_the_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 107516797,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User naviaged to home page",
+            "match": {
+              "location": "SetpDefinition.user_naviaged_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1212425398,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "LogOut application",
+            "match": {
+              "location": "SetpDefinition.LogOut_application()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "login and search room in hotel application",
+    "description": "As a user I want to login and search for the room",
+    "id": "login-and-search-room-in-hotel-application",
+    "keyword": "Feature",
+    "uri": "resources/Features/login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@SmokeTest"
+      }
+    ]
+  }
+]]

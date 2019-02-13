@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="14221" started-at="2018-10-30T02:07:32Z" finished-at="2018-10-30T02:07:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Window2" duration-ms="14045" started-at="2018-10-30T02:07:32Z" finished-at="2018-10-30T02:07:46Z">
+      <class name="com.bdd.runner.TestNGRunner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="setUpClass" is-config="true" duration-ms="475" started-at="2018-10-30T02:07:32Z" finished-at="2018-10-30T02:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="setup" is-config="true" duration-ms="2" started-at="2018-10-30T02:07:33Z" finished-at="2018-10-30T02:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="feature" duration-ms="12763" started-at="2018-10-30T02:07:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-30T02:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login and search room in hotel application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="extReport()[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="extReport" is-config="true" duration-ms="2" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="tearDownClass" is-config="true" duration-ms="614" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.bdd.runner.TestNGRunner1@30a3107a]" name="test" is-config="true" duration-ms="0" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.bdd.runner.TestNGRunner1 -->
+    </test> <!-- Window2 -->
+    <test name="Window1" duration-ms="14221" started-at="2018-10-30T02:07:32Z" finished-at="2018-10-30T02:07:46Z">
+      <class name="com.bdd.runner.TestNGRunner1">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="setUpClass" is-config="true" duration-ms="471" started-at="2018-10-30T02:07:32Z" finished-at="2018-10-30T02:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="setup" is-config="true" duration-ms="2" started-at="2018-10-30T02:07:33Z" finished-at="2018-10-30T02:07:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="feature" duration-ms="12762" started-at="2018-10-30T02:07:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-10-30T02:07:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login and search room in hotel application]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="extReport()[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="extReport" is-config="true" duration-ms="1" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="tearDownClass" is-config="true" duration-ms="781" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.bdd.runner.TestNGRunner1@1d29cf23]" name="test" is-config="true" duration-ms="0" started-at="2018-10-30T02:07:46Z" finished-at="2018-10-30T02:07:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.bdd.runner.TestNGRunner1 -->
+    </test> <!-- Window1 -->
+  </suite> <!-- TestAll -->
+</testng-results>
